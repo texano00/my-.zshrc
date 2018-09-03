@@ -71,5 +71,7 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # htop > top
-alias top="sudo htop" # alias top and fix high sierra bug
+alias top="sudo htop"
 
+# ncdu > du
+alias du="ncdu -rr -x --exclude .git --exclude node_modules"
