@@ -75,3 +75,8 @@ alias top="sudo htop"
 
 # ncdu > du
 alias du="ncdu -rr -x --exclude .git --exclude node_modules"
+
+# z
+. .zshrc-utils/ z.sh
+touch .z
+ 
